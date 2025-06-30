@@ -1,5 +1,7 @@
 import { ThemeToggle } from "../components/ThemeToggle.tsx";
 import { StarBackground } from "../components/StarBackground.tsx";
+import { Navbar } from "../components/Navbar.tsx";
+import { MainContent } from "../components/MainContent.tsx";
 // import { Navbar } from "../components/Navbar.jsx";
 
 export const Home = () => {
@@ -8,14 +10,15 @@ export const Home = () => {
 
         {/* Theme Toggle */}
         <ThemeToggle />
+
         {/* Backgound Effects */}
         <StarBackground />
 
         {/* Navbar */}
-        {/* <Navbar /> */}
+        <Navbar />
 
         {/* Main Content */}
-
+        <MainContent />
 
         {/* Footer */}
     </div>
