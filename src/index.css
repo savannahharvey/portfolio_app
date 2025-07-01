@@ -43,7 +43,7 @@
       transform: translateY(20px);
     }
     to {
-      opacuty: 1;
+      opacity: 1;
       transform: translateY(0);
     }
   }
@@ -163,7 +163,7 @@
 }
 
 
-/* Main Content ... */
+/* Hero Seciton ... */
 
 .intro_sec {
   /* background-color: var(--nav-background-color); */
@@ -214,13 +214,14 @@
   margin-top: 10%;
   padding: 0.5rem;
   width: 60%;
+  border-style: solid;
 }
 
 /* Navbar */
 
 .topnav {
   overflow: hidden;
-  background-color: var(--nav-background-color);
+  /* background-color: var(--nav-background-color); */
   /* background-image: linear-gradient(to right, #ae74ff, #ffb36f); */
   font-family: var(--heading-font);
 }

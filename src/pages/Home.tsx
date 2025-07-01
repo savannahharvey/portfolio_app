@@ -1,8 +1,9 @@
 import { ThemeToggle } from "../components/ThemeToggle.tsx";
 import { StarBackground } from "../components/StarBackground.tsx";
 import { Navbar } from "../components/Navbar.tsx";
-import { MainContent } from "../components/MainContent.tsx";
-// import { Navbar } from "../components/Navbar.jsx";
+import { HeroSection } from "../components/HeroSection.tsx";
+import { AboutSection } from "../components/AboutSection.tsx";
+import { ProjectSection } from "../components/ProjectSection.tsx";
 
 export const Home = () => {
     return (
@@ -18,7 +19,13 @@ export const Home = () => {
         <Navbar />
 
         {/* Main Content */}
-        <MainContent />
+        <main>
+            <HeroSection />
+            <AboutSection />
+                        
+            <ProjectSection />
+            
+        </main>
 
         {/* Footer */}
     </div>
