@@ -2,7 +2,7 @@ import portfolioPic from '../images/portfolioPic.jpg';
 
 export const HeroSection = () => {
     return <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-6">
-        <div className="container max-w-4xl mx-auto text-center z-10">
+        <div className="container max-w-85rem mx-auto text-center z-10">
             <section className="intro_sec">
                 <div className="grid_system">
                     <div className="intro">
