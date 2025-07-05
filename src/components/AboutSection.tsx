@@ -1,17 +1,38 @@
 
 export const AboutSection = () => {
-    return <section id="about">
-        <div className="container max-w-4xl mx-auto text-center z-10">
-            <section className="intro_sec">
-                <div className="grid_system">
-                    <div className="intro">
-                        <img></img>
-                        <p className="name opacity-0 animate-fade-in"><span>Savannah Harvey</span></p>
-                        <p className="major opacity-0 animate-fade-in-delay-1"><i><span>Software Engineer</span></i></p>
-                        <button className="reach_out opacity-0 animate-fade-in-delay-1">REACH OUT</button>
-                    </div>
-                </div>
-            </section>
-        </div>
+    return (
+    <section
+      id="about"
+      className="max-w-3xl mx-auto px-6 py-12 text-foreground"
+      aria-labelledby="about-heading"
+    >
+      <h2
+        id="about-heading"
+        className="text-3xl font-bold mb-6 text-center text-primary-600"
+      >
+         About Me
+      </h2>
+
+      <p className="mb-6 text-lg leading-relaxed">
+        Hi! I'm <strong>Savannah Harvey</strong>, a Software Engineering major
+        at <strong>Brigham Young University-Idaho</strong>. I have a strong passion for
+        cloud computing and enjoy learning how software can scale and connect
+        people around the world.
+      </p>
+
+      <p className="mb-6 text-lg leading-relaxed">
+        I love building web applications, solving problems, and exploring new
+        technologies that make software faster, more reliable, and easier to use.
+      </p>
+
+      <p className="mb-6 text-lg leading-relaxed">
+        Outside of my studies, I enjoy working on projects with real-world impact
+        and collaborating with other developers to create meaningful solutions.
+      </p>
+
+      <p className="text-center italic text-indigo-600 text-lg">
+        Let's connect! If you're interested in software development or cloud
+        technologies, I'd love to chat.
+      </p>
     </section>
-}
+)}

@@ -8,7 +8,7 @@ export const HeroSection = () => {
                     <div className="intro">
                         <p className="name opacity-0 animate-fade-in"><span>Savannah Harvey</span></p>
                         <p className="major opacity-0 animate-fade-in-delay-1"><i><span>Software Engineer</span></i></p>
-                        <button className="reach_out opacity-0 animate-fade-in-delay-1">REACH OUT</button>
+                        {/* <button className="reach_out opacity-0 animate-fade-in-delay-1">REACH OUT</button> */}
                     </div>
                     <img className="main_pic opacity-0 animate-fade-in-delay-2" src= {portfolioPic} alt="Picture of Savannah Harvey" />
                 </div>
