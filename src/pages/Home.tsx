@@ -12,9 +12,6 @@ export const Home = () => {
         {/* Theme Toggle */}
         <ThemeToggle />
 
-        {/* Backgound Effects */}
-        <StarBackground />
-
         {/* Navbar */}
         <Navbar />
 
@@ -26,6 +23,9 @@ export const Home = () => {
             <ProjectSection />
             
         </main>
+        
+        {/* Backgound Effects */}
+        <StarBackground />
 
         {/* Footer */}
     </div>
