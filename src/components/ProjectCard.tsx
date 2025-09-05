@@ -26,11 +26,27 @@ const ProjectCard: React.FC<ProjectCardItems> = ({
       </p>
       <p className="text-gray-700 mb-2">{description}</p>
       {expanded && (
-        <ul className="list-disc pl-6 text-gray-700 text-sm space-y-1">
-          {skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
-          ))}
-        </ul>
+        <div className="space-y-4 mt-4">
+          {/* Responsive YouTube video */}
+          <div className="w-full sm:w-3/4 md:w-1/2 mx-auto">
+            <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow-lg">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Skills list */}
+          <ul className="pl-6 text-gray-700 text-sm space-y-1">
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
       )}
 
     </div>

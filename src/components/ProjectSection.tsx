@@ -39,9 +39,9 @@ const projects = [
 
 export const ProjectSection: React.FC = () => {
   return (
-    <section id="projects" className="min-h-screen py-16 px-4 sm:px-8 md:px-16 lg:px-32 overflow-y-auto">
+    <section id="projects" className="min-h-screen py-16 px-4 sm:px-8 md:px-16 lg:px-32 overflow-y-auto justify-items-center">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 h-full">
+      <div className="grid gap-6 grid-cols-1 h-full w-1/2">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} {...project} />
         ))}
