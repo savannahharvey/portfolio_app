@@ -6,7 +6,7 @@ import { AboutSection } from "../components/AboutSection.tsx";
 import { ProjectSection } from "../components/ProjectSection.tsx";
 import { ExperienceSection } from "../components/ExperienceSection.tsx";
 import { ContactSection } from "../components/ContactSection.tsx";
-import { Contact } from "lucide-react";
+// import { Contact } from "lucide-react";
 
 export const Home = () => {
     return (
