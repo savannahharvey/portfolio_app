@@ -4,6 +4,15 @@ import ExperienceCard from "./ExperienceCard";
 // Example job data
 const jobs = [
   {
+    name: "QA Software Developer Intern - The Church of Jesus Christ of Latter-day Saints",
+    skills: [
+      "Perform software quality assurance testing and identify defects across applications",
+      "Collaborate with developers and stakeholders to support reliable software releases"
+    ],
+    startDate: "January 2026",
+    endDate: "Present"
+  },
+  {
     name: "Student Event Coordinator - Brigham Young University-Idaho",
     skills: [
       "Coordinated and executed over 150 campus-wide events, ensuring all logistical needs were met, including venue setup, equipment, and staffing",

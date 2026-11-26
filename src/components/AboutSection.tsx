@@ -1,4 +1,3 @@
-
 export const AboutSection = () => {
     return (
     <section
@@ -14,10 +13,10 @@ export const AboutSection = () => {
       </h2>
 
       <p className="mb-6 text-lg leading-relaxed">
-        Hi! I'm <strong>Savannah Harvey</strong>, a Software Engineering major
-        at <strong>Brigham Young University-Idaho</strong>. I have a strong passion for
-        cloud computing and enjoy learning how software can scale and connect
-        people around the world.
+        Hi! I'm <strong>Savannah Harvey</strong>, I graduated in July 2026 with a
+        <strong> BS in Software Engineering</strong> from <strong>Brigham Young University-Idaho</strong>.
+        I have a strong passion for cloud computing and enjoy learning how software
+        can scale and connect people around the world.
       </p>
 
       <p className="mb-6 text-lg leading-relaxed">

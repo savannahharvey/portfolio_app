@@ -35,8 +35,8 @@ export const ContactSection = () => {
                             </div>
                             <div>
                                 <h4 className="font-medium">Email</h4>
-                                <a href="mailto:sam20003@byui.edu" className="text-muted-foreground hover:text-primary transition-colors">
-                                    sam20003@byui.edu
+                                <a href="mailto:savannahmharvey@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                                    savannahmharvey@gmail.com
                                 </a>
                             </div>
                         </div>
